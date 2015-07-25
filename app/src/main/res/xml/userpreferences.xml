@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="通用">
+        <CheckBoxPreference android:key="notify_me"
+            android:title="是否定期提醒"
+            android:summary="当设定计划话，应用定时提醒是否完成本期计划"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/new_task"
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/new_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dip"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/check_task_complete"
+        />
+    <TextView
+        android:id="@+id/task_current_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:paddingLeft="5dip"
+        android:layout_below="@+id/new_task_name"
+        />
+
+    <CheckBox
+        android:id="@+id/check_task_complete"
+        style="@style/my_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

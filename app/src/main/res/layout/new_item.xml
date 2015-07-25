@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/add_new_item"
+        android:layout_weight="1"
+        android:background="@drawable/text_item_bg_round_rectangle"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content" />
+        android:hint="@string/add_new_item_description"
+        android:layout_alignParentTop="true"
+        android:textSize="15sp"
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:id="@+id/speechButton"
+       />
+    <Button
+        android:id="@+id/new_item_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_item_submit"
+        android:visibility="gone"/>
+
+</LinearLayout>

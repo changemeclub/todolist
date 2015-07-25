@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment="com.example.ldc.todolist.UserPreferenceFragment"
+        android:icon="@drawable/notification_template_icon_bg"
+        android:title="定时提醒"
+        android:summary="是否需要定期提醒完成相应工作"/>
+
+</preference-headers>

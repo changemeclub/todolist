@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/layout_align_center"
+    android:gravity="left|center"
+    >
+    <TextView android:text="今天任务个数："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_taskinfo_today"
+        android:textSize="15dp"
+        android:textColor="@color/line_text_color"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_today"
+        android:textSize="20dp"
+        android:textColor="@color/btn_pressed_color"
+        android:layout_toRightOf="@+id/label_taskinfo_today"
+        />
+    <TextView android:text="，完成任务个数：" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_taskinfo_today_complete"
+        android:textSize="15dp"
+        android:textColor="@color/line_text_color"
+        android:layout_toRightOf="@+id/number_today"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/label_taskinfo_today_complete"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/number_today_complete"/>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        Customize your theme here.
+        Theme.AppCompat.Light.DarkActionBar
+    </style>-->
+    <style name="my_CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="layout_align_center">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+</resources>
